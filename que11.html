@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sortable User List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>User List (Sortable)</h1>
+
+    <div class="controls">
+        <label for="sort">Sort by:</label>
+        <select id="sort">
+            <option value="name">Name</option>
+            <option value="username">Username</option>
+            <option value="email">Email</option>
+        </select>
+    </div>
+
+    <div id="user-list"></div>
+    <div id="error" class="error"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
